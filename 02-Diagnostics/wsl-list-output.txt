@@ -1,3 +1,11 @@
 PS C:\WINDOWS\system32> wsl -l -v
   NAME          STATE           VERSION
 * kali-linux    Stopped         2
+
+
+
+### Interpretation
+
+The presence of `kali-linux` confirmed the distro filesystem remained intact.
+The failure was therefore not a destructive unregistration event.
+The issue was isolated to the WSL platform or Store packaging layer.
