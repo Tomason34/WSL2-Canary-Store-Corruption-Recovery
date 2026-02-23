@@ -1,0 +1,3 @@
+PS C:\WINDOWS\system32> wsl -l -v
+  NAME          STATE           VERSION
+* kali-linux    Stopped         2
